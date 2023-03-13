@@ -1,0 +1,29 @@
+deb http://archive.ubuntu.com/ubuntu/ focal main restricted
+deb http://security.ubuntu.com/ubuntu focal-security main restricted
+deb http://archive.ubuntu.com/ubuntu/ focal-updates main restricted
+ 
+# Dépôts de sources (uniquement utiles pour télécharger les sources avec apt-get source. Dans ce cas, enlever les #)
+# deb-src http://archive.ubuntu.com/ubuntu/ focal main restricted
+# deb-src http://archive.ubuntu.com/ubuntu/ focal-updates main restricted
+# deb-src http://security.ubuntu.com/ubuntu focal-security main restricted
+
+deb http://archive.ubuntu.com/ubuntu/ focal universe multiverse
+deb http://security.ubuntu.com/ubuntu focal-security universe multiverse
+deb http://archive.ubuntu.com/ubuntu/ focal-updates universe multiverse
+ 
+# Dépôts de sources (uniquement utiles pour télécharger les sources avec apt-get source. Dans ce cas, enlever les #)
+# deb-src http://archive.ubuntu.com/ubuntu/ focal universe multiverse
+# deb-src http://archive.ubuntu.com/ubuntu/ focal-updates universe multiverse
+# deb-src http://security.ubuntu.com/ubuntu focal-security universe multiverse
+
+
+deb http://archive.ubuntu.com/ubuntu/ focal-backports main restricted universe multiverse
+
+# Dépôts de sources (uniquement utiles pour télécharger les sources avec apt-get source. Dans ce cas, enlever les #)
+# deb-src http://archive.ubuntu.com/ubuntu/ focal-backports main restricted universe multiverse
+
+## Commercial
+deb http://archive.canonical.com/ubuntu focal partner
+
+## Sources
+# deb-src http://archive.canonical.com/ubuntu focal partner
